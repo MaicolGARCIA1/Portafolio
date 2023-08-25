@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+}
+#h{
+    width: 18vw;
+    height: 13vh;
+   
+}
+h1{
+    display: flex;
+    color: white
+}
+#hm{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+li {
+    color: black;
+}
+#hm a{
+    color: blue;
+}

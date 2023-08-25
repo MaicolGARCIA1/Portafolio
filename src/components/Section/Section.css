@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    color: white;
+}
+h4{
+    color: white;
+}
+.Primera_parte{
+    margin-left: 160px;
+}
+.imagen{
+    display: flex;
+    width: 250px;
+    height: 200px;
+    justify-content: flex-end;
+    margin-left: 650px;
+    margin-top: -170px;
+    border: solid white;
+    border-radius: 20px;
+}
+.imagen img{
+    width: 250px;
+    height: auto;
+    border: 1px solid none;
+    border-radius: 100px;
+}
+span{
+    color: blue;
+}
+.logo{
+    gap: 20px;
+}
+.logoo img{
+    display: flex;
+    display: inline-block;
+    width: 40px;
+    border: solid blue;
+    border-radius: 30px;
+}
+.Button button{
+    margin-top: 20px;
+    background-color: blue;
+    border: solid blue;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 1s ease;
+    box-shadow: .5rem .5rem 1rem blue;
+    color: white;
+}

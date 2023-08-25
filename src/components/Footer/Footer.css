@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+.Btn_Footer{
+    display: flex;
+    margin-left: 700px;
+}
+.Btn_Footer button{
+    background-color: blue;
+    border: solid blue;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 1s ease;
+    box-shadow: .5rem .5rem 1rem blue;
+    margin-top: -15px;
+    color: white; 
+}
