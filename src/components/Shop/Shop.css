@@ -1,0 +1,38 @@
+
+.Shop {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 20px; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+  }
+
+  .Products {
+    border: 1px solid blue; 
+    border-radius: 15px;
+    padding: 20px; 
+  }
+  
+  .Products img {
+    max-width: 100%; 
+    display: block; 
+    margin: 0 auto;
+  }
+
+  .Products h1 {
+    font-size: 15px; 
+    margin-bottom: 10px;
+  }
+  
+  .Products p {
+    font-size: 14px; 
+  }
+  .Products button{
+    background-color: white;
+    color: blue;
+    margin: 10px;
+    padding: 5px;
+    font-size: 13px;
+    font-family: cursive;
+  }

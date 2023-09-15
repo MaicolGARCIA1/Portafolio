@@ -46,8 +46,9 @@ ul {
 .contact-form {
     background: #222222;
     border-radius: 20px;
-    margin: 50px;
+    margin: 80px;
     margin-top: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .contact-form form {
@@ -102,13 +103,17 @@ ul {
     border: solid black;
     border-radius: 20px;
     margin: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .contact-info h4, .contact-info ul, .contact-info p {
     text-align: center;
     margin: 0 0 1rem 0;
 }
-
+.ImagenContacto{
+    border: solid white;
+    border-radius: 10px;
+}
 /* LARGE SIZE */
 @media(min-width: 700px) {
     body {
@@ -126,4 +131,16 @@ ul {
     .contact-info p {
         text-align: left;
     }
+}
+.texto_contacto{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:small;
+    padding: 20px;
+    border: solid white;
+}
+li{
+    color: white;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
 }

@@ -1,33 +1,46 @@
-*{
+
+* {
     margin: 0;
     padding: 0;
-}
-header{
+  }
+
+  header {
     width: 100vw;
     height: 20vh;
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
     align-items: center;
     background-color: black;
-}
-#h{
+  }
+
+  #h {
     width: 18vw;
     height: 13vh;
-   
-}
-h1{
-    display: flex;
-    color: white
-}
-#hm{
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  #hm {
     display: flex;
     flex-direction: row;
+    list-style: none; 
+  }
+  
+
+  #hm li {
+    margin: 0 10px; 
+  }
+  
+  #hm a {
     text-decoration: none;
-}
-li {
-    color: black;
-}
-#hm a{
     color: blue;
+  }
+
+h1:hover {
+  color: blue; 
+}
+#hm li:hover a {
+  color: white; 
 }

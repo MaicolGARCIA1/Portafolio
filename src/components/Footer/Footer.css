@@ -2,6 +2,7 @@ footer{
     display: flex;
     margin-top: 40px;
     margin-left: 150px;
+    display: inline-block;
 }
 .Btn_Footer{
     display: flex;
@@ -17,3 +18,28 @@ footer{
     margin-top: -15px;
     color: white; 
 }
+.Button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #scrollButton {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #scrollButton:hover {
+    background-color: blue;
+  }
+  #scrollButton {
+    width: 50px;
+    justify-content: end;
+    margin-left: 900px;
+   
+  }
+ 
